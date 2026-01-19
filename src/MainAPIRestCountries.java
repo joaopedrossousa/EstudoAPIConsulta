@@ -50,7 +50,7 @@ public class MainAPIRestCountries {
             }
 
             ConsultaPais consultaPais = new ConsultaPais(consultaPaisJson[0]);
-            
+
             System.out.println(consultaPais);
 
         } catch (PaisNaoEncontradoException e) {
